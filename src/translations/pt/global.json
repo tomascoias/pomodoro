@@ -1,0 +1,45 @@
+{
+  "description" : "Gerencie seu tempo com inteligência",
+  "translation" : {
+    "en" : "Inglês",
+    "es" : "Espanhol",
+    "pt" : "Português"
+  },
+  "tasklist" : {
+    "title" : "Lista de Tarefas",
+    "description" : "Escreva suas tarefas para esta sessão"
+  },
+  "timer" : {
+    "title" : "Temporizador",
+    "description" : "Acompanhe o temporizador de estudo",
+    "mode":{
+      "title" : "Modo Atual",
+      "description" : "Ciclo atual do cronômetro",
+      "options": {
+        "focus": "Foco",
+        "shortpause": "Pausa Curta",
+        "longpause": "Pausa Longa",
+        "custom": "Personalizado"
+      }
+    }
+  },
+  "interval" : "Intervalo",
+  "settings" : {
+    "title" : "Configurações"
+  },
+  "modal":{
+    "enter": "Enviar",
+    "workMinutes": "Minutos de Trabalho",
+    "shortBreakMinutes": "Minutos da Pausa Pequena",
+    "longBreakMinutes": "Minutos da Pausa Longa",
+    "mode":{
+      "title": "Modos",
+      "classic": "Clássico",
+      "work": "Trabalho",
+      "study": "Estudo"
+    }
+  },
+  "sonner":{
+    "taskCompleted": "Acabaste todas as tarefas. Bom Trabalho!🎉"
+  }
+}

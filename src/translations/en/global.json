@@ -1,0 +1,45 @@
+{
+  "description" : "Manage your time with intelligence",
+  "translation" : {
+    "en" : "English",
+    "es" : "Spanish",
+    "pt" : "Portuguese"
+  },
+  "tasklist" : {
+    "title" : "Task List",
+    "description" : "Write your tasks for this session"
+  },
+  "timer" : {
+    "title" : "Timer",
+    "description" : "Keep track of the study timer",
+    "mode":{
+      "title" : "Current Mode",
+      "description" : "Current stopwatch cycle",
+      "options": {
+        "focus": "Focus",
+        "shortpause": "Short Pause",
+        "longpause": "Long Pause",
+        "custom": "Custom"
+      }
+    }
+  },
+  "interval" : "Interval",
+  "settings" : {
+    "title" : "Settings"
+  },
+  "modal":{
+    "enter": "Send",
+    "workMinutes": "Work Minutes",
+    "shortBreakMinutes": "Short Break Minutes",
+    "longBreakMinutes": "Long Break Minutes",
+    "mode":{
+      "title": "Modes",
+      "classic": "Classic",
+      "work": "Work",
+      "study": "Study"
+    }
+  },
+  "sonner":{
+    "taskCompleted": "You finished all the tasks. Good job!🎉"
+  }
+}
