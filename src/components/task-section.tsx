@@ -16,7 +16,6 @@ export function TaskSection() {
 
   const { setTaskCompleted } = useTimerContext()
 
-  const [content, setContent] = useState("");
   const [isPending, setPending] = useState(false)
   const [tasks, setTask] = useState<Task[]>([])
 
@@ -30,7 +29,6 @@ export function TaskSection() {
     if ((content != " ") && (content != "")) {
       const taskArray = [newTask, ...tasks]
       setPending(false)
-      setContent("")
       setTask(taskArray)
     }
   }
