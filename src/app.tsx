@@ -6,10 +6,6 @@ import { Languages, Moon, Sun } from 'lucide-react'
 import { TimerSection } from './components/timer-section'
 import { TaskSection } from './components/task-section'
 
-// OnClick Edit Task  | adicionar as settings a um modal
-// Mode passa a ser os modes que existem default, custom, etc... | status passa a ser "focus" , "shortpause", "longpause"
-// Ver se é possivel retirar o work e o break de qualquer variavel senao adicionar com o nome de ""
-
 export function App() {
   const { theme, setTheme } = useTheme()
   const [t, i18n] = useTranslation("global")

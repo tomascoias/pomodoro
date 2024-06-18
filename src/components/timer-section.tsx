@@ -8,7 +8,7 @@ import { useTimerContext } from "./timer-provider"
 export function TimerSection() {
   const [t] = useTranslation("global")
 
-  const { status } = useTimerContext() //mode = ver o icon se é default ou isso
+  const { status } = useTimerContext()
 
   return (
     <div>
